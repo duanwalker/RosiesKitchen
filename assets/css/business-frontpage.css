@@ -1,0 +1,107 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 350px;
+    /**/background: url('../images/making-desserts_1112-174.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+/**/
+/*background: #304352;*/  /*fallback for old browsers */
+/*background: -webkit-linear-gradient(to left, #304352 , #d7d2cc);*/ /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to left, #304352 , #d7d2cc);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+.business-header img{
+    position: relative;
+    top:10px;
+    right:20px;
+    height:360px;
+    width:475px;
+    float:left;
+    padding:5px;
+    margin: 5px;
+}
+.business-header h1{
+    position: relative;
+    top:20px;
+    left:0;
+    font-size: 44px;
+    float:left;
+    padding: 10px;
+    color: #7a8288;
+}
+.business-header p{
+    position: relative;
+    top:275px;
+    left:0;
+    font-size: 15px;
+    float:center;
+    text-shadow: 0 0 1px #000;
+    color: #7a8288;
+}
+.tagline {
+    text-shadow: 0 0 3px #000;
+   /* color: gray;*/
+}
+
+.img-center {
+    margin: 0 auto;
+}
+ .img-thumbnail{
+height:250px;
+
+}
+
+footer {
+    margin: 50px 0;
+}
+/*Responsivity!*/
+@media only screen and (max-width: 768px){
+
+    .business-header img{
+        float:left;
+        position:relative;
+        width:275px;
+        height:200px;
+        top:20px;
+        
+        
+    }
+}
+@media only screen and (max-width: 600px){
+
+    .business-header h1{
+        font-size:25px;
+        float:left;
+        padding:3px;
+    }
+    .business-header p{
+        font-size: 15px;
+    }
+    .business-header img{
+        float:right;
+        position:absolute;
+        width:125px;
+        height:90px;
+        top:0;
+        right:-5px;
+        
+    }
+    .business-header {
+    height: 275px;
+    }
+}
