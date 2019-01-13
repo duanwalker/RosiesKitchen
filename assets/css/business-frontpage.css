@@ -28,12 +28,12 @@ body {
 .business-header img{
     position: relative;
     top:10px;
-    right:20px;
-    height:375px;
-    width:500px;
+    right:10px;
+    height:400px;
+    width:550px;
     float:left;
-    padding:5px;
-    margin: 5px;
+    padding:2px;
+    margin: 2px;
 }
 .business-header h1{
     position: relative;
@@ -75,8 +75,8 @@ footer {
     .business-header img{
         float:left;
         position:relative;
-        width:275px;
-        height:200px;
+        width:355px;
+        height:290px;
         bottom:200px;
         left:0px;
         
@@ -101,12 +101,10 @@ footer {
          margin-left: auto; 
          margin-right: auto;
     }
-    .business-header {
+    /*.business-header {
     height: 275px;
-    }
+    }*/
     .btn{
-        position:relative;
-        padding: 2px;
-        border:2px;
+        
     }
 }
