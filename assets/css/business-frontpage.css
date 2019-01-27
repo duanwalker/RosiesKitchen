@@ -8,21 +8,16 @@ body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
     height: 350px;
-    /**/background: url('../images/making-desserts_1112-174.jpg') center center no-repeat scroll;
+    background: url('../images/making-desserts_1112-174.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    
-/**/
-/*background: #304352;*/  /*fallback for old browsers */
-/*background: -webkit-linear-gradient(to left, #304352 , #d7d2cc);*/ /* Chrome 10-25, Safari 5.1-6 */
-/*background: linear-gradient(to left, #304352 , #d7d2cc);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        }
+
+}
 
 /* Customize the text color and shadow color and to optimize text legibility. */
 .business-header img{
