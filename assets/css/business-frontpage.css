@@ -45,8 +45,8 @@ body {
     left:0;
     font-size: 15px;
     float:center;
-    text-shadow: 0 0 1px #000;
-    color: #7a8288;
+    text-shadow: 0 0 1px #7a8288;
+    color: #111;
 }
 .tagline {
     text-shadow: 0 0 3px #000;
